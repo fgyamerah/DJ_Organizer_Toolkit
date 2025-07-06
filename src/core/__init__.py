@@ -1,9 +1,15 @@
-from .file_io import clean_string, copy_file, organize_file_by_artist
-from .metadata import tag_mp3
+"""
+DJ Organizer Core Modules
+Exposes main analysis and organization functions
+"""
+
+from .analyzer import analyze_track
+from .organizer import process_tracks, load_config
+from .tagger import tag_file
 
 __all__ = [
-    'clean_string',
-    'copy_file',
-    'organize_file_by_artist',
-    'tag_mp3'
+    'analyze_track',
+    'process_tracks',
+    'load_config',
+    'tag_file'
 ]

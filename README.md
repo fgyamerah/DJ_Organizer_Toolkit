@@ -5,6 +5,7 @@
 - ⚡ Auto-tag BPM/Key using AI analysis
 - 🗂️ Organize by `Artist`/`Key`/`BPM`
 - 📦 Export to Rekordbox/M3U
+ 
 
 ## Quick Start
 ```bash
