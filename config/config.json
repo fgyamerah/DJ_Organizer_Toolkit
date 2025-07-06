@@ -1,0 +1,18 @@
+{
+  "source_folder": "./input",
+  "destination_folder": "./output",
+  "features": {
+    "analyze_audio": true,
+    "tag_files": true,
+    "export_rekordbox": true,
+    "export_m3u": true
+  },
+  "organization": {
+    "by_artist": true,
+    "by_key": false
+  },
+  "audio_analysis": {
+    "analysis_duration": 90,
+    "high_bpm_threshold": 128
+  }
+}
